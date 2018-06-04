@@ -332,7 +332,8 @@ header {
     header .burger-button.close div {
       z-index: 2; }
       header .burger-button.close div:nth-child(2) {
-        display: none; }
+        opacity: 0;
+        height: 0; }
       header .burger-button.close div:nth-child(1) {
         transform: rotate(45deg);
         top: 37px; }

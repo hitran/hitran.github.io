@@ -94,11 +94,9 @@ header {
     opacity: 1;
     position: fixed;
     &:hover {
-      //color: $light-brown;
       color: $black;
       cursor: pointer;
       div {
-        //background-color: $light-brown;
         background-color: $white;
       }
     }
@@ -132,7 +130,8 @@ header {
       div {
         z-index: 2;
         &:nth-child(2) {
-          display: none;
+          opacity: 0;
+          height: 0;
         }
         &:nth-child(1) {
           transform: rotate(45deg);
