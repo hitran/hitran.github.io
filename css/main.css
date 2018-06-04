@@ -96,7 +96,8 @@ section {
   margin-top: 100px;
   box-sizing: border-box; }
   #about h4 {
-    font-weight: 300; }
+    font-weight: 300;
+    text-align: justify; }
   #about p.footnote {
     font-size: 15px; }
   #about div {
