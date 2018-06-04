@@ -1,0 +1,58 @@
+.banner {
+  margin-top: 50px;
+  height: 90vh;
+  position: relative;
+  .banner-content {
+    position: absolute;
+    left: 3%;
+    top: 45%;
+    transform: translateY(-45%);
+    width: 90%;
+    margin: 0;
+    h2{
+      text-align: left;
+      margin: 30px 0;
+    }
+    h3 {
+      font-weight: 300;
+      text-align: left;
+      font-size: 18px;
+      line-height: 2rem;
+      &:after {
+        display: none;
+      }
+    }
+  }
+}
+
+div#contact {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  p {
+    margin: 10px 0;
+  }
+  a {
+    color: inherit;
+  }
+  .fas, .fab {
+    padding-right: 10px;
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .banner {
+    .banner-content {
+      left: 10%;
+      right: 10%;
+
+      h3 {
+        font-size: 25px;
+      }
+    }
+  }
+}
